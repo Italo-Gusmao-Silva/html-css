@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        header{
+            background-color: aquamarine;
+            border: 10px;
+        }
+        main{
+            background-color: gray;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        footer{
+            text-align: center;
+            background-color: black;
+            color: white;
+            padding: 5px;}
+        article{
+            background-color: beige;
+        }
+        article > aside{
+            background-color: rgb(230, 209, 178);
+        }
+        nav{
+            background-color: greenyellow;
+            color: white;
+            box-shadow: 5px -11px 8px 11px rgba(0, 0, 0, 0.404)
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="">link1</a>
+            <a href="">link 2</a>
+            <a href="">link 3</a>
+        </nav>
+
+    </header>
+    <main>
+        <section id="Assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>novo texto</h2>
+                <aside>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit, voluptatem? Animi vero veniam unde, magnam doloribus eligendi commodi, ea, eaque amet necessitatibus dolorem! Accusamus non repellendus, amet dicta quam illo?
+                </aside>
+            </article>
+
+        </section>
+
+    </main>
+    <footer>
+        <p>desenvolvimento pelo curso em video</p>
+
+    </footer>
+</body>
+</html>

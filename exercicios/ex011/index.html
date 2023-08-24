@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotos dinamicas</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Fotos dinámicas</h1>
+    <p>tente abrir esse site em vario dispositios os apenas aumente e diminui o seu navagador</p>
+    <picture>
+        <source media="(max-width: 700px)" srcset="Imagens/paisagem-300x300.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="Imagens/paisagem-700x700.png" type="image/png">
+        <img src="Imagens/paisagem-1000x1000.png" alt="Paisagem">
+    </picture>
+    <h1>Reproduzindo audio</h1>
+    <audio src="midia/Guess I_ll Never Know.wav - TrackTribe.mp3" autoplay controls></audio>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/Guess I_ll Never Know.wav - TrackTribe.mp3" type="audio/mpeg">
+    </audio>
+    <h1>Vamos agora colocar um video</h1>
+    <p>colocando <strong>localmente</strong></p>
+    <video controls width="900" poster="Imagens/paisagem-700x700.png">
+        <source src="midia/meu-video.mp4" type="video/mp4">
+        <source src="midia/pexels-helmut-meijer-17807629 (540p).mp4" type="video/mp4">
+    </video>
+    <h2>video do youtube</h2>
+    <iframe width="900" height="600" src="https://www.youtube.com/embed/9JYwG7D7xbw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html>
